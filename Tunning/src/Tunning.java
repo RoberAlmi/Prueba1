@@ -18,9 +18,9 @@ import javax.swing.JButton;
 public class Tunning extends JFrame {
 
 	private JPanel contentPane;
-	private JTextField textField;
-	private JTextField textField_1;
-	private JTextField textField_2;
+	private JTextField txtNombre;
+	private JTextField txtApellidos;
+	private JTextField txtDirección;
 
 	/**
 	 * Launch the application.
@@ -66,25 +66,25 @@ public class Tunning extends JFrame {
 		lblNewLabel_1.setHorizontalAlignment(SwingConstants.RIGHT);
 		panelDatos.add(lblNewLabel_1);
 		
-		textField = new JTextField();
-		panelDatos.add(textField);
-		textField.setColumns(10);
+		txtNombre = new JTextField();
+		panelDatos.add(txtNombre);
+		txtNombre.setColumns(10);
 		
 		JLabel lblNewLabel_2 = new JLabel("Apellidos:");
 		lblNewLabel_2.setHorizontalAlignment(SwingConstants.RIGHT);
 		panelDatos.add(lblNewLabel_2);
 		
-		textField_1 = new JTextField();
-		panelDatos.add(textField_1);
-		textField_1.setColumns(10);
+		txtApellidos = new JTextField();
+		panelDatos.add(txtApellidos);
+		txtApellidos.setColumns(10);
 		
 		JLabel lblNewLabel_3 = new JLabel("Direcci\u00F3n:");
 		lblNewLabel_3.setHorizontalAlignment(SwingConstants.RIGHT);
 		panelDatos.add(lblNewLabel_3);
 		
-		textField_2 = new JTextField();
-		panelDatos.add(textField_2);
-		textField_2.setColumns(10);
+		txtDirección = new JTextField();
+		panelDatos.add(txtDirección);
+		txtDirección.setColumns(10);
 		
 		JLabel lblNewLabel_4 = new JLabel("Provincia:");
 		lblNewLabel_4.setHorizontalAlignment(SwingConstants.RIGHT);
